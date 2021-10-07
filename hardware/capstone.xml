@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Alec\Documents\capstone\capstone.sch</source>
+    <date>10/8/2020 2:00:32 PM</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>capstone.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sheet5F7BACC0/" tstamps="/5F7BACC1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power_System.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Sheet5F7BACC0/Battery_Indicator/" tstamps="/5F7BACC1/5F7670D3/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Battery_Indicator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Sensor_System/" tstamps="/5F7BAE47/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sensors.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Sensor_System/Humidity_Sensor/" tstamps="/5F7BAE47/5F73F93E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Humidity_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Sensor_System/Gas_Block/" tstamps="/5F7BAE47/5F745FCA/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Gas_sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>6-534206-0-L</value>
+      <footprint>ZMod:6-534206-0</footprint>
+      <libsource lib="6-534206-0" part="6-534206-0-L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7B6ED1</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>6-534206-0-R</value>
+      <footprint>ZMod:6-534206-0</footprint>
+      <libsource lib="6-534206-0" part="6-534206-0-R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7B81DD</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F235B</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Keystone_5010-5014_Multipurpose</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F439C</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Keystone_5010-5014_Multipurpose</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F50B5</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F911B</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>BH-18650-W</value>
+      <footprint>ZMod:battery_holder</footprint>
+      <datasheet>https://www.memoryprotectiondevices.com/datasheets/BH-18650-W-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Field4">Manufacturer Recommendations</field>
+        <field name="Field5">MPD</field>
+        <field name="Field6">21.41 mm</field>
+      </fields>
+      <libsource lib="BK-18650-PC2" part="BK-18650-PC2" description=""/>
+      <sheetpath names="/Sheet5F7BACC0/" tstamps="/5F7BACC1/"/>
+      <tstamp>5F676AC6</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5F7BACC0/" tstamps="/5F7BACC1/"/>
+      <tstamp>5F6793FD</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet5F7BACC0/" tstamps="/5F7BACC1/"/>
+      <tstamp>5F679BB3</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TLV75533PDBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv755p.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="TLV75533PDBV" description="500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/Sheet5F7BACC0/" tstamps="/5F7BACC1/"/>
+      <tstamp>5F70EFCD</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>WireConnect</value>
+      <footprint>ZMod:Wire_Connector</footprint>
+      <libsource lib="ZMOD4510" part="WireConnect" description=""/>
+      <sheetpath names="/Sheet5F7BACC0/" tstamps="/5F7BACC1/"/>
+      <tstamp>5F72BA97</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/Sheet5F7BACC0/Battery_Indicator/" tstamps="/5F7BACC1/5F7670D3/"/>
+      <tstamp>5F769E67</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/Sheet5F7BACC0/Battery_Indicator/" tstamps="/5F7BACC1/5F7670D3/"/>
+      <tstamp>5F76BC59</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/Sheet5F7BACC0/Battery_Indicator/" tstamps="/5F7BACC1/5F7670D3/"/>
+      <tstamp>5F76DA64</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/Sheet5F7BACC0/Battery_Indicator/" tstamps="/5F7BACC1/5F7670D3/"/>
+      <tstamp>5F7D03CF</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>NTR5105PT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NTR5105P-D.PDF</datasheet>
+      <libsource lib="Device" part="Q_PMOS_GDS" description="P-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/Sheet5F7BACC0/Battery_Indicator/" tstamps="/5F7BACC1/5F7670D3/"/>
+      <tstamp>5F7E624E</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138LT1-D.PDF</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/Sheet5F7BACC0/Battery_Indicator/" tstamps="/5F7BACC1/5F7670D3/"/>
+      <tstamp>5F7E75B3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sensor_System/" tstamps="/5F7BAE47/"/>
+      <tstamp>5F6458C4</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/Sensor_System/" tstamps="/5F7BAE47/"/>
+      <tstamp>5F756A74</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/Sensor_System/" tstamps="/5F7BAE47/"/>
+      <tstamp>5F758ACE</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sensor_System/" tstamps="/5F7BAE47/"/>
+      <tstamp>5F7FDC74</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>HDC2080</value>
+      <footprint>Package_SON:Texas_PWSON-N6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/hdc2080.pdf</datasheet>
+      <libsource lib="Sensor_Humidity" part="HDC2080" description="Low Power Humidity and Temperature Sensor"/>
+      <sheetpath names="/Sensor_System/Humidity_Sensor/" tstamps="/5F7BAE47/5F73F93E/"/>
+      <tstamp>5F74318E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ZMOD4510AI1V</value>
+      <footprint>ZMod:ZMOD4510</footprint>
+      <datasheet>https://www.idt.com/us/en/document/dst/zmod4510-datasheet</datasheet>
+      <libsource lib="ZMOD4510" part="ZMOD4510AI1V" description=""/>
+      <sheetpath names="/Sensor_System/Gas_Block/" tstamps="/5F7BAE47/5F745FCA/"/>
+      <tstamp>5F749F4D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="6-534206-0" part="6-534206-0-L">
+      <footprints>
+        <fp>6-534206-0_TYC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">6-534206-0-L</field>
+        <field name="Footprint">6-534206-0_TYC</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="3.3V" type="unspc"/>
+        <pin num="A2" name="P6.0" type="unspc"/>
+        <pin num="A3" name="P3.2" type="unspc"/>
+        <pin num="A4" name="P3.3" type="unspc"/>
+        <pin num="A5" name="P4.1" type="unspc"/>
+        <pin num="A6" name="P4.3" type="unspc"/>
+        <pin num="A7" name="P1.5" type="unspc"/>
+        <pin num="A8" name="SCL" type="unspc"/>
+        <pin num="A9" name="SDA" type="unspc"/>
+        <pin num="A10" name="A10" type="unspc"/>
+        <pin num="B1" name="5V" type="unspc"/>
+        <pin num="B2" name="GND" type="unspc"/>
+        <pin num="B3" name="P6.1" type="unspc"/>
+        <pin num="B4" name="P4.0" type="unspc"/>
+        <pin num="B5" name="P4.2" type="unspc"/>
+        <pin num="B6" name="P4.4" type="unspc"/>
+        <pin num="B7" name="P4.5" type="unspc"/>
+        <pin num="B8" name="P4.7" type="unspc"/>
+        <pin num="B9" name="B9" type="unspc"/>
+        <pin num="B10" name="B10" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="6-534206-0" part="6-534206-0-R">
+      <footprints>
+        <fp>6-534206-0_TYC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">6-534206-0-R</field>
+        <field name="Footprint">6-534206-0_TYC</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="P2.7" type="unspc"/>
+        <pin num="A2" name="P2.6" type="unspc"/>
+        <pin num="A3" name="P2.4" type="unspc"/>
+        <pin num="A4" name="P5.6" type="unspc"/>
+        <pin num="A5" name="P6.6" type="unspc"/>
+        <pin num="A6" name="P6.7" type="unspc"/>
+        <pin num="A7" name="P2.3" type="unspc"/>
+        <pin num="A8" name="P5.1" type="unspc"/>
+        <pin num="A9" name="P3.5" type="unspc"/>
+        <pin num="A10" name="A10" type="unspc"/>
+        <pin num="B1" name="GND" type="unspc"/>
+        <pin num="B2" name="B2" type="unspc"/>
+        <pin num="B3" name="CS" type="unspc"/>
+        <pin num="B4" name="B4" type="unspc"/>
+        <pin num="B5" name="RESET" type="unspc"/>
+        <pin num="B6" name="MOSI" type="unspc"/>
+        <pin num="B7" name="MISO" type="unspc"/>
+        <pin num="B8" name="B8" type="unspc"/>
+        <pin num="B9" name="B9" type="unspc"/>
+        <pin num="B10" name="B10" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="BK-18650-PC2" part="BK-18650-PC2">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BK-18650-PC2</field>
+        <field name="Footprint">BAT_BK-18650-PC2</field>
+        <field name="Datasheet">F</field>
+        <field name="Field4">Manufacturer Recommendations</field>
+        <field name="Field5">MPD</field>
+        <field name="Field6">21.41 mm</field>
+      </fields>
+      <pins>
+        <pin num="+" name="~" type="passive"/>
+        <pin num="-" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GDS">
+      <description>P-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV70012_SOT23-5">
+      <aliases>
+        <alias>TLV70013_SOT23-5</alias>
+        <alias>TLV70015_SOT23-5</alias>
+        <alias>TLV70018_SOT23-5</alias>
+        <alias>TLV70019_SOT23-5</alias>
+        <alias>TLV70025_SOT23-5</alias>
+        <alias>TLV70030_SOT23-5</alias>
+        <alias>TLV70032_SOT23-5</alias>
+        <alias>TLV70033_SOT23-5</alias>
+        <alias>TLV70036_SOT23-5</alias>
+        <alias>TLV70212_SOT23-5</alias>
+        <alias>TLV70215_SOT23-5</alias>
+        <alias>TLV70218_SOT23-5</alias>
+        <alias>TLV70225_SOT23-5</alias>
+        <alias>TLV70228_SOT23-5</alias>
+        <alias>TLV70230_SOT23-5</alias>
+        <alias>TLV70231_SOT23-5</alias>
+        <alias>TLV70233_SOT23-5</alias>
+        <alias>TLV70235_SOT23-5</alias>
+        <alias>TLV70237_SOT23-5</alias>
+        <alias>TLV70245_SOT23-5</alias>
+        <alias>TLV71209_SOT23-5</alias>
+        <alias>TLV71210_SOT23-5</alias>
+        <alias>TLV71211_SOT23-5</alias>
+        <alias>TLV71310PDBV</alias>
+        <alias>TLV71311PDBV</alias>
+        <alias>TLV71312PDBV</alias>
+        <alias>TLV71315PDBV</alias>
+        <alias>TLV71318PDBV</alias>
+        <alias>TLV713185PDBV</alias>
+        <alias>TLV71325PDBV</alias>
+        <alias>TLV71328PDBV</alias>
+        <alias>TLV713285PDBV</alias>
+        <alias>TLV71330PDBV</alias>
+        <alias>TLV71333PDBV</alias>
+        <alias>TLV75509PDBV</alias>
+        <alias>TLV75510PDBV</alias>
+        <alias>TLV75512PDBV</alias>
+        <alias>TLV75515PDBV</alias>
+        <alias>TLV75518PDBV</alias>
+        <alias>TLV75519PDBV</alias>
+        <alias>TLV75525PDBV</alias>
+        <alias>TLV75528PDBV</alias>
+        <alias>TLV75529PDBV</alias>
+        <alias>TLV75530PDBV</alias>
+        <alias>TLV75533PDBV</alias>
+        <alias>TLV75709PDBV</alias>
+        <alias>TLV75710PDBV</alias>
+        <alias>TLV75712PDBV</alias>
+        <alias>TLV75715PDBV</alias>
+        <alias>TLV75718PDBV</alias>
+        <alias>TLV75719PDBV</alias>
+        <alias>TLV75725PDBV</alias>
+        <alias>TLV75728PDBV</alias>
+        <alias>TLV75729PDBV</alias>
+        <alias>TLV75730PDBV</alias>
+        <alias>TLV75733PDBV</alias>
+        <alias>TLV702475_SOT23-5</alias>
+      </aliases>
+      <description>200mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv700.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV70012_SOT23-5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Humidity" part="HDC2080">
+      <description>Low Power Humidity and Temperature Sensor</description>
+      <docs>http://www.ti.com/lit/ds/symlink/hdc2080.pdf</docs>
+      <footprints>
+        <fp>Package*SON:Texas*PWSON*N6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HDC2080</field>
+        <field name="Footprint">Package_SON:Texas_PWSON-N6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ADDR" type="input"/>
+        <pin num="4" name="DRDY" type="output"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="PAD" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZMOD4510" part="WireConnect">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WireConnect</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="BiDi"/>
+        <pin num="2" name="VDD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZMOD4510" part="ZMOD4510AI1V">
+      <docs>https://www.idt.com/us/en/document/dst/zmod4510-datasheet</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ZMOD4510AI1V</field>
+        <field name="Footprint">ZMod:ZMOD4510</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="BiDi"/>
+        <pin num="2" name="SDA" type="BiDi"/>
+        <pin num="3" name="INT" type="BiDi"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VDD" type="BiDi"/>
+        <pin num="6" name="VSS" type="BiDi"/>
+        <pin num="7" name="VCC" type="power_out"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+        <pin num="9" name="VSS" type="BiDi"/>
+        <pin num="10" name="VDD" type="power_out"/>
+        <pin num="11" name="RES_N" type="input"/>
+        <pin num="12" name="VDDIO" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="CAP">
+      <aliases>
+        <alias>C</alias>
+      </aliases>
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="6-534206-0">
+      <uri>C:\Users\Alec\Documents\capstone/Symbols/6-534206-0.lib</uri>
+    </library>
+    <library logical="BK-18650-PC2">
+      <uri>C:\Users\Alec\Documents\capstone/Symbols/BK-18650-PC2.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Sensor_Humidity">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Sensor_Humidity.lib</uri>
+    </library>
+    <library logical="ZMOD4510">
+      <uri>C:\Users\Alec\Documents\capstone/Symbols/ZMOD4510.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GND">
+      <node ref="C3" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="BT1" pin="-"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="9"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="J2" pin="B1"/>
+      <node ref="J1" pin="B2"/>
+    </net>
+    <net code="2" name="/SDA">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="A9"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="3" name="/SCL">
+      <node ref="J1" pin="A8"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="4" name="/VDD">
+      <node ref="U1" pin="5"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U2" pin="10"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="5" name="Net-(J2-PadA5)">
+      <node ref="TP3" pin="1"/>
+      <node ref="J2" pin="A5"/>
+    </net>
+    <net code="6" name="Net-(J2-PadA4)">
+      <node ref="J2" pin="A4"/>
+      <node ref="TP2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J2-PadA3)">
+      <node ref="TP1" pin="1"/>
+      <node ref="J2" pin="A3"/>
+    </net>
+    <net code="8" name="Net-(J1-PadA10)">
+      <node ref="J1" pin="A10"/>
+    </net>
+    <net code="9" name="Net-(J1-PadB10)">
+      <node ref="J1" pin="B10"/>
+    </net>
+    <net code="10" name="P2.7">
+      <node ref="U2" pin="3"/>
+      <node ref="J2" pin="A1"/>
+    </net>
+    <net code="11" name="Net-(J1-PadB9)">
+      <node ref="J1" pin="B9"/>
+    </net>
+    <net code="12" name="Net-(J1-PadB8)">
+      <node ref="J1" pin="B8"/>
+    </net>
+    <net code="13" name="Net-(J1-PadB7)">
+      <node ref="J1" pin="B7"/>
+    </net>
+    <net code="14" name="Net-(J1-PadB6)">
+      <node ref="J1" pin="B6"/>
+    </net>
+    <net code="15" name="Net-(J1-PadB5)">
+      <node ref="J1" pin="B5"/>
+    </net>
+    <net code="16" name="Net-(J1-PadB4)">
+      <node ref="J1" pin="B4"/>
+    </net>
+    <net code="17" name="Net-(J1-PadB3)">
+      <node ref="J1" pin="B3"/>
+    </net>
+    <net code="18" name="Net-(J2-PadB9)">
+      <node ref="J2" pin="B9"/>
+    </net>
+    <net code="19" name="Net-(J1-PadB1)">
+      <node ref="J1" pin="B1"/>
+    </net>
+    <net code="20" name="Net-(J1-PadA7)">
+      <node ref="J1" pin="A7"/>
+    </net>
+    <net code="21" name="Net-(J1-PadA6)">
+      <node ref="J1" pin="A6"/>
+    </net>
+    <net code="22" name="P4.1">
+      <node ref="J1" pin="A5"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J1-PadA4)">
+      <node ref="J1" pin="A4"/>
+    </net>
+    <net code="24" name="Net-(J1-PadA3)">
+      <node ref="J1" pin="A3"/>
+    </net>
+    <net code="25" name="P6.0A">
+      <node ref="J1" pin="A2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="26" name="P2.6">
+      <node ref="J2" pin="A2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="27" name="Net-(J2-PadA10)">
+      <node ref="J2" pin="A10"/>
+    </net>
+    <net code="28" name="Net-(J2-PadB8)">
+      <node ref="J2" pin="B8"/>
+    </net>
+    <net code="29" name="Net-(J2-PadB7)">
+      <node ref="J2" pin="B7"/>
+    </net>
+    <net code="30" name="Net-(J2-PadB6)">
+      <node ref="J2" pin="B6"/>
+    </net>
+    <net code="31" name="Net-(J2-PadB5)">
+      <node ref="J2" pin="B5"/>
+    </net>
+    <net code="32" name="Net-(J2-PadB4)">
+      <node ref="J2" pin="B4"/>
+    </net>
+    <net code="33" name="Net-(J2-PadB3)">
+      <node ref="J2" pin="B3"/>
+    </net>
+    <net code="34" name="Net-(J2-PadB2)">
+      <node ref="J2" pin="B2"/>
+    </net>
+    <net code="35" name="Net-(J2-PadA9)">
+      <node ref="J2" pin="A9"/>
+    </net>
+    <net code="36" name="P5.1">
+      <node ref="J2" pin="A8"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="37" name="Net-(J2-PadA7)">
+      <node ref="J2" pin="A7"/>
+    </net>
+    <net code="38" name="Net-(J2-PadA6)">
+      <node ref="J2" pin="A6"/>
+    </net>
+    <net code="39" name="Net-(J2-PadB10)">
+      <node ref="J2" pin="B10"/>
+    </net>
+    <net code="40" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="41" name="/Sheet5F7BACC0/UnReg_VDD">
+      <node ref="U4" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="BT1" pin="+"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="42" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="43" name="/Sheet5F7BACC0/Battery_Indicator/Pull_up">
+      <node ref="Q1" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="44" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="46" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="47" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name 6-534206-0)(type Legacy)(uri ${KIPRJMOD}/Symbols/6-534206-0.lib)(options "")(descr header))
+  (lib (name HDC2080DMBR)(type Legacy)(uri ${KIPRJMOD}/Symbols/HDC2080DMBR.lib)(options "")(descr ""))
+  (lib (name ZMOD4510)(type Legacy)(uri ${KIPRJMOD}/Symbols/ZMOD4510.lib)(options "")(descr ""))
+  (lib (name BK-18650-PC2)(type Legacy)(uri ${KIPRJMOD}/Symbols/BK-18650-PC2.lib)(options "")(descr ""))
+  (lib (name LM3658SDNOPB)(type Legacy)(uri ${KIPRJMOD}/Symbols/LM3658SDNOPB.lib)(options "")(descr ""))
+)

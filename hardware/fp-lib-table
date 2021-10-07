@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ZMod)(type KiCad)(uri ${KIPRJMOD}/FootPrints/ZMod.pretty)(options "")(descr ""))
+  (lib (name FootPrints)(type KiCad)(uri ${KIPRJMOD}/FootPrints.pretty)(options "")(descr ""))
+)
